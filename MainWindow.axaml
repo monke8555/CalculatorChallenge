@@ -1,0 +1,16 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="CalculatorChallenge.MainWindow"
+        Title="CalculatorChallenge"
+        Background="#252526">
+        <StackPanel>
+                <Label Content="Expression:" />
+                <TextBox x:Name="Input" Text="1+1" />
+                <Button Content="Evaluate" Click="Button_OnClick" />
+                <Label Content="Output:" />
+                <TextBox Text="2" x:Name="Output" />
+        </StackPanel>
+</Window>
